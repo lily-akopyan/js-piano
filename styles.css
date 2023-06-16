@@ -15,6 +15,21 @@ h1 {
     margin-top: 100px;
 }
 
+span {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.black-font {
+    color: #0e0e0e7b;
+}
+
+.white-font {
+    color: #ffffff7b;
+}
+
 .piano {
     background-color: #333333;
     border-radius: 5px;
@@ -38,12 +53,22 @@ h1 {
     z-index: 1;
 }
 
-.black{
+.black {
     width: 30px;
     height: 110px;
-    margin:0 -15px;
-    background-color: #090909;
+    margin: 0 -15px;
+    background-color: #0e0e0e;
     border: 1px solid #000;
-    border-radius:0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
     z-index: 2;
+}
+
+.white.active,
+.white:active {
+    background-color: #bbbbbb;
+}
+
+.black.active,
+.black:active {
+    background-color: #000000;
 }
